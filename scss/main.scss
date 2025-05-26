@@ -6,7 +6,7 @@ html {
     min-height: 100%;
 }
 
-main{margin-bottom: 250px;}
+main{margin-bottom: 270px;}
 footer.footer{
     padding: 15px;
     position: absolute;
@@ -23,6 +23,7 @@ p
 .hero-scene 
 {
     position: relative;
+    margin-bottom: 15px;
     &::before{
 content:"";        
 position: absolute;
@@ -75,3 +76,6 @@ filter: brightness(0.3)
 }
 }
 
+.form-label{
+    color:$primary;
+}
