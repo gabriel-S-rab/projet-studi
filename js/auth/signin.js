@@ -12,6 +12,8 @@ function checkCredentials(){
     const token = "761938";
     setToken(token);
     //placer le token en cookie
+
+    setCookie("role","admin",7);
     window.location.replace("/");
   }else {
     mailInput.classList.add('is-invalid'); 
